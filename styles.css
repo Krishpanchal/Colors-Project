@@ -45,13 +45,13 @@ svg {
   bottom: 0%;
   padding: 1rem;
   width: 80%;
-  background: rgb(235, 184, 184);
+  background: rgb(255, 254, 254);
   border-top-right-radius: 1rem;
-  pointer-events: none;
+  /* pointer-events: none; */
   border-top-left-radius: 1rem;
-  opacity: 0;
+  /* opacity: 0; */
 
-  transform: translateY(100px);
+  /* transform: translateY(100px); */
   transition: all 0.5s ease;
 }
 
@@ -123,4 +123,15 @@ svg {
 
 .color .button {
     margin-bottom: 1rem;
+}
+
+
+/* Slider Stuff */
+input[type='range'] {
+  -webkit-appearance: none;
+  margin: 0.6rem 0rem;
+  width: 100%;
+  position: relative;
+  border-radius: 1rem;
+  cursor: pointer;
 }
